@@ -1,0 +1,49 @@
+@use '../utilities/variables' as *;
+@use '../utilities/mixins' as *;
+
+.aboutUs {
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    height: 1200px; 
+    .waveBlueLine{
+        position: absolute;
+        bottom: 0;
+        z-index: 2;
+    }  
+}
+// .aboutUs{
+//     .about{
+//         color: red;
+//         margin-bottom: 80px;
+//     }
+//     .left-row{
+//         .heading{
+//             text-align: left;
+//             width: 100%;
+//             margin-bottom: 30px;
+//             color: green;
+//         }
+//     }
+    
+//     .about p{
+//         font-size:px;
+//         padding-right:30px ;
+//         margin-bottom: 20px;
+//         line-height: 30px;
+//     }
+// }
+
+
+// @media screen and (max-width: 768px) {
+//     .about .container{
+//         flex-direction: column;
+//     }
+//     .about p{
+//         padding: 0;
+//         }
+//         .about .container img{ 
+//             margin-top: 50px;
+//     }
+    
+// }
