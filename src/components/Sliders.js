@@ -35,6 +35,31 @@ function Sliders(){
           <button className="slider-btn" href="#">VIEW PRODUCTS</button>
           <button className="slider-btn" href="#">VIEW SERVICES</button>
         </div>
+        <div className="slider" id="slider4">
+          <h2 className="slider-label">WE DESIGN BLINDS,SCREENS AND PATIO DOOR.</h2>
+          <button className="slider-btn" href="#">VIEW PRODUCTS</button>
+          <button className="slider-btn" href="#">VIEW SERVICES</button>
+        </div>
+        <div className="slider" id="slider5">
+          <h2 className="slider-label">WE DESIGN BLINDS,SCREENS AND PATIO DOOR.</h2>
+          <button className="slider-btn" href="#">VIEW PRODUCTS</button>
+          <button className="slider-btn" href="#">VIEW SERVICES</button>
+        </div>
+        <div className="slider" id="slider6">
+          <h2 className="slider-label">WE DESIGN BLINDS,SCREENS AND PATIO DOOR.</h2>
+          <button className="slider-btn" href="#">VIEW PRODUCTS</button>
+          <button className="slider-btn" href="#">VIEW SERVICES</button>
+        </div>
+        <div className="slider" id="slider7">
+          <h2 className="slider-label">WE DESIGN BLINDS,SCREENS AND PATIO DOOR.</h2>
+          <button className="slider-btn" href="#">VIEW PRODUCTS</button>
+          <button className="slider-btn" href="#">VIEW SERVICES</button>
+        </div>
+        <div className="slider" id="slider8">
+          <h2 className="slider-label">WE DESIGN BLINDS,SCREENS AND PATIO DOOR.</h2>
+          <button className="slider-btn" href="#">VIEW PRODUCTS</button>
+          <button className="slider-btn" href="#">VIEW SERVICES</button>
+        </div>
     </Slider>
     <img src={Waves} alt="" className="waves-divider"/>
     </div>

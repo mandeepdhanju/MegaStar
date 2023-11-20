@@ -3,7 +3,6 @@ import machine1 from '../images/blinds3.jpg'
 // import machine4 from '../images/BLINDS2.webp'
 import machine2 from '../images/patioDoor2.jpg'
 import machine3 from '../images/ScreenRollar1.jpg'
-import machine10 from '../images/machine-04-300x274.png'
 import bgimage from '../images/bg-section-about-us.jpg'
 import mapimage from '../images/map.jpg'
 

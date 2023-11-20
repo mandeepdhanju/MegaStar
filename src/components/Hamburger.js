@@ -23,7 +23,7 @@ function Hamburger(){
                 <li>ABOUT</li>
                 <li>BLINDS</li>
                 <li>SCREENS</li>
-                <li>DOORS</li>
+                <li>CURTAINS</li>
                 <li>CONTACT</li>
               </ul>
             </div> : "" }

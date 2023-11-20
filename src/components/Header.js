@@ -7,18 +7,15 @@ import logo1 from '../images/logo-1.jpg'
 //import machine from '../images/header-slider-img-01.jpg'
 import "../styles/styles.scss"
 import Hamburger from './Hamburger';
+import { useRef } from 'react';
 
-// import Home from '../components/Home';
-// import About from './components/About';
-// import Contact from './components/Contact';
-// import Blinds from './components/Blinds';
-// import Screens from './components/Screens';
-// import Doors from './components/Doors';
 
-// <Logo />
-// <Hamburger />
-// <Nav />
 function Header({menuOpen, setMenuOpen}) {
+  const dropdownMenuRef = useRef(); 
+
+  const handleDropdown = () => {
+    dropdownMenuRef.current.classList.toggle("show");
+  }
     return (
         <header>
           {/* <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -30,42 +27,40 @@ function Header({menuOpen, setMenuOpen}) {
                 <div className='header-contact-links'>
                   <ul className='header-contact-list'>
                     <div>
-                      <li>INSTALL WINDOWS</li>
+                      <li><Link className='cosultation-link' to="/bookConsultation">BOOK A CONSULTATION</Link></li>
                       <li>PRODUCT DETAILS</li>
                     </div>
                     <li><a href='#' className='vulcan-logo' style={{backgroundImage: `url(${logo1})`}}>MEGASTARSSCREENS</a></li>
-                    <div>
+                    <div className='phoneNumber'>
                       <li>+1 712-642-2755</li>
-                      <li>Contact Us</li>
-                      {/* <li><Link to="/contact">Contact Me</Link></li> */}
-                      {/* <li><a href="contact">Contact</a></li> */}
+                      <li><Link className='contactUs' to="/contact">Contact Us</Link></li>
                     </div>
                   </ul>
                 </div>
               </div>
             </div>
             <div className='header-content'>
-              {/* <div className='header-logo'>
-                <a href='#' className='vulcan-logo' style={{backgroundImage: `url(${logo2})`}}>MEGASTARSSCREENS</a>
-              </div> */}
+            <div className='header-logo'>
+                <a href='#' className='vulcan-logo' style={{backgroundImage: `url(${logo1})`}}>MEGASTARSSCREENS</a>
+              </div>
               <div className='nav-items'>
                 <Hamburger />
-          
+                          
                 <div className="menu-desktop">
-                  <ul className="menu-list-desktop"onClick={() =>setMenuOpen} >
-                  
-                       <Link to="home"><li>HOME</li></Link>
-                       <Link to="aboutUs"><li>ABOUT</li></Link>
-                      {/* <li className='blinds' onClick={() =>setMenuOpen(!menuOpen)}>BLINDS</li>                  */}
-                       <Link to="blinds"><li>BLINDS</li></Link>
-                       <Link to="screens"><li>SCREENS</li></Link>
-                       <Link to="doors"><li>DOORS</li></Link>
-                       <Link to="contact"><li>CONTACT</li></Link>                   
+                  <ul className="menu-list-desktop" >
+                  {/* <li><a href='#' className='vulcan-logo' style={{backgroundImage: `url(${logo2})`}}>MEGASTARSSCREENS</a></li> */}
+                     <Link to="/home"><li>HOME</li></Link>
+                       <Link to="/aboutUs"><li>ABOUT</li></Link>
+                       <Link to="/blinds"><li onClick={() =>setMenuOpen(!menuOpen)}>BLINDS</li></Link>
+                      {/* <Link to="/blinds"><li>BLINDS</li></Link> */}
+                       <Link to="/screens"><li>SCREENS</li></Link>
+                       <Link to="/curtains"><li>CURTAINS</li></Link>             
+                       <Link to="/contact"><li>CONTACT</li></Link> 
+                                 
                   </ul>
               </div>
-              
-              {/* {menuOpen &&( */}
-                <div className='blindsList' onClick={() =>setMenuOpen}>
+              {/* {menuOpen &&(
+                <div className='blindsList' onClick={() =>setMenuOpen(false)}>
                   <ul>Zebra Blinds</ul>
                   <ul>Roller Shades</ul>
                   <ul>Solar Shades</ul>
@@ -73,7 +68,7 @@ function Header({menuOpen, setMenuOpen}) {
                   <ul>Honey Comb Shades</ul>
                   <ul>Faux Wood Blinds</ul>
                 </div>          
-           {/* )}  */}
+           )}  */}
               
             </div>
           </div>

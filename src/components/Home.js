@@ -4,7 +4,7 @@ import "../styles/styles.scss";
 import Header from "./Header";
 import Sliders from "./Sliders";
 import Main from "./Main";
-import About from "./About";
+import CompanyInfo from "./CompanyInfo";
 import MediaPlayer from "./MediaPlayer";
 import Newsletter from "./Newsletter";
 import MoreInfo from "./Moreinfo";
@@ -19,11 +19,10 @@ function Home(){
          <Header />
          <Sliders />
          <Main /> 
-         <About />
-         <MediaPlayer />
-         <Newsletter />
+         <CompanyInfo />
+         {/* <MediaPlayer /> */}
+         {/* <Newsletter /> */}
          <MoreInfo /> 
-    
      </div>
        
 

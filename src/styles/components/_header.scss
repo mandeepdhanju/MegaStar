@@ -31,6 +31,7 @@ header {
 
 .header-logo {
     width: 99px;
+    object-fit: cover;
 }
 
 .vulcan-logo {
@@ -58,12 +59,11 @@ header {
     margin: 0;
     padding: 0 30px;
     .blinds{
-        // color: red;
         position: relative;
     }
 }
-// .home{
-//     color: red;
+// .blinds{
+//     // color: red;
 //     position: relative;
 //     cursor: pointer;
 //     border: gray;
@@ -134,13 +134,30 @@ header {
 
         li {
             vertical-align: top;
-            font-size: 16px;
+            font-size: 17px;
             line-height: 26px;
             font-weight: 500px;
             padding: 0 13px;
             display: inline-block;
             color: #fff;
             position: relative;
+            text-decoration: none;
+           
+        }
+        .cosultation-link{
+            text-decoration: none;
+            color: white;
+        }
+
+        .phoneNumber{
+           li{
+            color:white;      
+            cursor: pointer;
+           }
+           .contactUs{
+           color: white;
+           text-decoration: none;
+           }
         }
         
 
