@@ -2,8 +2,8 @@ import { BrowserRouter, Route, Link } from 'react-router-dom';
 import Nav from '../components/Nav';
 import Logo from './Logo';
 import logo from '../images/vulcan-industries-logo.png'
-import logo2 from '../images/logo-2.png'
-import logo1 from '../images/logo-1.jpg'
+import logo2 from '../images/megastar-logo.png'
+import logo1 from '../images/megastar-logo-white.jpg'
 //import machine from '../images/header-slider-img-01.jpg'
 import "../styles/styles.scss"
 import Hamburger from './Hamburger';
@@ -40,22 +40,26 @@ function Header({menuOpen, setMenuOpen}) {
               </div>
             </div>
             <div className='header-content'>
-            <div className='header-logo'>
+            {/* <div className='header-logo'>
                 <a href='#' className='vulcan-logo' style={{backgroundImage: `url(${logo1})`}}>MEGASTARSSCREENS</a>
-              </div>
+              </div> */}
               <div className='nav-items'>
                 <Hamburger />
                           
                 <div className="menu-desktop">
+                <a href='/' className='vulcan-logo' style={{backgroundImage: `url(${logo2})`}}>MEGASTARSSCREENS</a>
                   <ul className="menu-list-desktop" >
-                  {/* <li><a href='#' className='vulcan-logo' style={{backgroundImage: `url(${logo2})`}}>MEGASTARSSCREENS</a></li> */}
-                     <Link to="/home"><li>HOME</li></Link>
-                       <Link to="/aboutUs"><li>ABOUT</li></Link>
-                       <Link to="/blinds"><li onClick={() =>setMenuOpen(!menuOpen)}>BLINDS</li></Link>
-                      {/* <Link to="/blinds"><li>BLINDS</li></Link> */}
-                       <Link to="/screens"><li>SCREENS</li></Link>
-                       <Link to="/curtains"><li>CURTAINS</li></Link>             
-                       <Link to="/contact"><li>CONTACT</li></Link> 
+                     <Link to="/home"><li>Home</li></Link>
+                       <Link to="/aboutUs"><li>About</li></Link>
+                       <Link to="/blinds"><li onClick={() =>setMenuOpen(!menuOpen)}>Blinds</li></Link>
+                      <Link to="/blinds"><li>Blinds
+                        <ul class="submenu-1">
+                          <li><a href="">Zebra Blinds</a></li>
+                        </ul>
+                        </li></Link>
+                       <Link to="/screens"><li>Screens</li></Link>
+                       <Link to="/curtains"><li>Curtains</li></Link>             
+                       <Link to="/contact"><li>Contact</li></Link> 
                                  
                   </ul>
               </div>
