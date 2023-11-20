@@ -38,9 +38,49 @@ function Blinds({menuOpen, setMenuOpen}) {
         </div>
         <div className="info">
           <a href="zebraBlinds">Zebra Shades Blinds</a>
+          <p>For a stylish spin on a roller shade, try a transitional shade in Detroit. Dual panels of fabric easily roll up and down so you can scroll between translucent sheer and opaque blackout shades. When you want to let the light in, adjust the shade panels so you see “zebra” stripes. Then when you want to block out glare, just tug the shade slightly up or down, and the privacy sections will align to block the outside. If you want an unobstructed view, just slide the shade up like a traditional roller blind.</p>
+        <button className='btn-primary'>More Info</button>
         </div>
-         <p>For a stylish spin on a roller shade, try a transitional shade in Detroit. Dual panels of fabric easily roll up and down so you can scroll between translucent sheer and opaque blackout shades. When you want to let the light in, adjust the shade panels so you see “zebra” stripes. Then when you want to block out glare, just tug the shade slightly up or down, and the privacy sections will align to block the outside. If you want an unobstructed view, just slide the shade up like a traditional roller blind.</p>
-        <button>More Info</button>
+         
+      </div>
+      <div className="project-container">
+        {/* <div className="item movie-app"> */}
+        <div className="item zebra-blinds">
+          <img src={Zebra} alt="Zebra Shades" />
+          {/* <a href="zebraBlinds">Zebra Blinds</a> */}
+        </div>
+        <div className="info">
+          <a href="zebraBlinds">Roller Shades Blinds</a>
+          <p>For a stylish spin on a roller shade, try a transitional shade in Detroit. Dual panels of fabric easily roll up and down so you can scroll between translucent sheer and opaque blackout shades. When you want to let the light in, adjust the shade panels so you see “zebra” stripes. Then when you want to block out glare, just tug the shade slightly up or down, and the privacy sections will align to block the outside. If you want an unobstructed view, just slide the shade up like a traditional roller blind.</p>
+        <button className='btn-primary'>More Info</button>
+        </div>
+         
+      </div>
+      <div className="project-container">
+        {/* <div className="item movie-app"> */}
+        <div className="item zebra-blinds">
+          <img src={Zebra} alt="Zebra Shades" />
+          {/* <a href="zebraBlinds">Zebra Blinds</a> */}
+        </div>
+        <div className="info">
+          <a href="zebraBlinds">Zebra Shades Blinds</a>
+          <p>For a stylish spin on a roller shade, try a transitional shade in Detroit. Dual panels of fabric easily roll up and down so you can scroll between translucent sheer and opaque blackout shades. When you want to let the light in, adjust the shade panels so you see “zebra” stripes. Then when you want to block out glare, just tug the shade slightly up or down, and the privacy sections will align to block the outside. If you want an unobstructed view, just slide the shade up like a traditional roller blind.</p>
+        <button className='btn-primary'>More Info</button>
+        </div>
+         
+      </div>
+      <div className="project-container">
+        {/* <div className="item movie-app"> */}
+        <div className="item zebra-blinds">
+          <img src={Zebra} alt="Zebra Shades" />
+          {/* <a href="zebraBlinds">Zebra Blinds</a> */}
+        </div>
+        <div className="info">
+          <a href="zebraBlinds">Zebra Shades Blinds</a>
+          <p>For a stylish spin on a roller shade, try a transitional shade in Detroit. Dual panels of fabric easily roll up and down so you can scroll between translucent sheer and opaque blackout shades. When you want to let the light in, adjust the shade panels so you see “zebra” stripes. Then when you want to block out glare, just tug the shade slightly up or down, and the privacy sections will align to block the outside. If you want an unobstructed view, just slide the shade up like a traditional roller blind.</p>
+        <button className='btn-primary'>More Info</button>
+        </div>
+         
       </div>
 
       <div className="project-container">

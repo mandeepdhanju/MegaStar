@@ -21,44 +21,34 @@ function Sliders(){
       <div className="hero-slider">
       <Slider {...settings}>
         <div className="slider" id="slider1">
-          <h2 className="slider-label">WE DESIGN BLINDS,SCREENS AND PATIO DOOR.</h2>
-          <button className="slider-btn">VIEW PRODUCTS</button>
-          <button className="slider-btn">VIEW SERVICES</button>
+          <div className="slider-container">
+            <h2 className="slider-label">We Design Blinds, Screens, and Patio Doors</h2>
+            <div className="button-container">
+              <button className="slider-btn">View Products</button>
+              <button className="slider-btn">View Services</button>
+            </div>
+          </div>
         </div>
         <div className="slider" id="slider2">
-          <h2 className="slider-label">WE DESIGN BLINDS,SCREENS AND PATIO DOOR.</h2>
-          <button className="slider-btn">VIEW PRODUCTS</button>
-          <button className="slider-btn">VIEW SERVICES</button>
+          <div className="slider-container">
+            <h2 className="slider-label">We Design Blinds, Screens, and Patio Doors</h2>
+            <button className="slider-btn">View Products</button>
+            <button className="slider-btn">View Services</button>
+          </div>
         </div>
         <div className="slider" id="slider3">
-          <h2 className="slider-label">WE DESIGN BLINDS,SCREENS AND PATIO DOOR.</h2>
-          <button className="slider-btn" href="#">VIEW PRODUCTS</button>
-          <button className="slider-btn" href="#">VIEW SERVICES</button>
+          <div class="slider-container">
+            <h2 className="slider-label">We Design Blinds, Screens, and Patio Doors</h2>
+            <button className="slider-btn">View Products</button>
+            <button className="slider-btn">View Services</button>
+          </div>
         </div>
         <div className="slider" id="slider4">
-          <h2 className="slider-label">WE DESIGN BLINDS,SCREENS AND PATIO DOOR.</h2>
-          <button className="slider-btn" href="#">VIEW PRODUCTS</button>
-          <button className="slider-btn" href="#">VIEW SERVICES</button>
-        </div>
-        <div className="slider" id="slider5">
-          <h2 className="slider-label">WE DESIGN BLINDS,SCREENS AND PATIO DOOR.</h2>
-          <button className="slider-btn" href="#">VIEW PRODUCTS</button>
-          <button className="slider-btn" href="#">VIEW SERVICES</button>
-        </div>
-        <div className="slider" id="slider6">
-          <h2 className="slider-label">WE DESIGN BLINDS,SCREENS AND PATIO DOOR.</h2>
-          <button className="slider-btn" href="#">VIEW PRODUCTS</button>
-          <button className="slider-btn" href="#">VIEW SERVICES</button>
-        </div>
-        <div className="slider" id="slider7">
-          <h2 className="slider-label">WE DESIGN BLINDS,SCREENS AND PATIO DOOR.</h2>
-          <button className="slider-btn" href="#">VIEW PRODUCTS</button>
-          <button className="slider-btn" href="#">VIEW SERVICES</button>
-        </div>
-        <div className="slider" id="slider8">
-          <h2 className="slider-label">WE DESIGN BLINDS,SCREENS AND PATIO DOOR.</h2>
-          <button className="slider-btn" href="#">VIEW PRODUCTS</button>
-          <button className="slider-btn" href="#">VIEW SERVICES</button>
+          <div class="slider-container">
+            <h2 className="slider-label">We Design Blinds, Screens, and Patio Doors</h2>
+            <button className="slider-btn">View Products</button>
+            <button className="slider-btn">View Services</button>
+          </div>
         </div>
     </Slider>
     <img src={Waves} alt="" className="waves-divider"/>

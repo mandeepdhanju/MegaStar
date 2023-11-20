@@ -2,12 +2,7 @@
 @use '../utilities/mixins' as *;
 
 
-.slider {
-    text-align: center;
-    align-items: center;
-    background-size: cover;
-    padding: 200px 14px 200px;
-}
+
 #slider1{
     // background: url(../../images/header-slider-img-01.jpg);
     background: url(../../images/patioDoor2.jpg);
@@ -34,6 +29,20 @@
 #slider8{
     background: url(../../images/slider4.jpg);
 }
+.slider {
+    text-align: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 200px 14px 200px;
+    .button-container{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: start;
+    }
+}
 .slider-label {
     text-transform: capitalize;
     color: #fff;
@@ -44,18 +53,19 @@
     margin: auto;
 }
 .slider-btn {
-    margin: 0 auto 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: .5px;
     padding: 15px;
     font-size: 16px;
-    border-radius: 0;
+    border-radius: 5px;
     border: 1px solid white;
-    background: transparent;
+    background: rgba(255,255,255, .3);
     color: white;
-    display: block;
     transition:.3s ease-in-out;
 }
 .slider-btn:hover{
-    color: #009ddc;
+    color: #40439b;
 	background: #fff;
 }
 .hero-slider{
@@ -79,22 +89,38 @@
     opacity: 1 !important;
 }
 .slick-dots li.slick-active button::before{
-    color: #009ddc !important;
+    color: #40439b !important;
 }
 @media (min-width: 768px) {
     .slider-label {
         font-size: 50px;
         line-height: 1.2em;
-        max-width: 800px;
     }
     .slider-btn{
-        display: inline;
         margin: 0 10px;
     }
 }
 @media (min-width: 1024px) {
+    .slider{
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        padding: 300px 100px 200px;
+        .slider-container{
+            display: flex;
+            flex-direction: column;
+        align-items: center;
+        justify-content: start;
+            height: 300px;
+            
+        max-width: 800px;
+        }
+        
+    }
     .slider-label{
-        font-size: 80px;
-        max-width: 1300px;
+        font-size: 50px;
+        text-align: left;
+        padding: 0;
     }
 }

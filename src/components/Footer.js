@@ -4,7 +4,7 @@ import flogo from '../images/icon-white-facebook.png'
 import inlogo from '../images/icon-white-linkedin.png'
 import phone1 from '../images/2048px-Circle-icons-phone.svg.png'
 import waveblue from '../images//wave-blue-light.png'
-import logo2 from '../images/logo-2.png'
+import logo2 from '../images/megastar-logo-white.png'
 import logo1 from '../images/logo-1.jpg'
 
 function Footer() {

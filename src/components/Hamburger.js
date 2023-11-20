@@ -19,12 +19,12 @@ function Hamburger(){
           {isActive ?
             <div className="menu-dropdown">
               <ul className="menu-list">
-                <li>HOME</li>
-                <li>ABOUT</li>
-                <li>BLINDS</li>
-                <li>SCREENS</li>
-                <li>CURTAINS</li>
-                <li>CONTACT</li>
+                <li>Home</li>
+                <li>About</li>
+                <li>Blinds</li>
+                <li>Screens</li>
+                <li>Curtains</li>
+                <li>Contact</li>
               </ul>
             </div> : "" }
         </div></>

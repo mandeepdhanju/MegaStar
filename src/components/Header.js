@@ -3,7 +3,7 @@ import Nav from '../components/Nav';
 import Logo from './Logo';
 import logo from '../images/vulcan-industries-logo.png'
 import logo2 from '../images/megastar-logo.png'
-import logo1 from '../images/megastar-logo-white.jpg'
+import logo1 from '../images/megastar-logo-white.png'
 //import machine from '../images/header-slider-img-01.jpg'
 import "../styles/styles.scss"
 import Hamburger from './Hamburger';
@@ -27,10 +27,9 @@ function Header({menuOpen, setMenuOpen}) {
                 <div className='header-contact-links'>
                   <ul className='header-contact-list'>
                     <div>
-                      <li><Link className='cosultation-link' to="/bookConsultation">BOOK A CONSULTATION</Link></li>
-                      <li>PRODUCT DETAILS</li>
+                      <li><Link className='cosultation-link' to="/bookConsultation">Book a Consultation</Link></li>
+                      <li>Product Detals</li>
                     </div>
-                    <li><a href='#' className='vulcan-logo' style={{backgroundImage: `url(${logo1})`}}>MEGASTARSSCREENS</a></li>
                     <div className='phoneNumber'>
                       <li>+1 712-642-2755</li>
                       <li><Link className='contactUs' to="/contact">Contact Us</Link></li>
@@ -43,21 +42,34 @@ function Header({menuOpen, setMenuOpen}) {
             {/* <div className='header-logo'>
                 <a href='#' className='vulcan-logo' style={{backgroundImage: `url(${logo1})`}}>MEGASTARSSCREENS</a>
               </div> */}
+              <a href='/' className='logo-mobile'><img src={logo1}/></a>
               <div className='nav-items'>
                 <Hamburger />
                           
                 <div className="menu-desktop">
-                <a href='/' className='vulcan-logo' style={{backgroundImage: `url(${logo2})`}}>MEGASTARSSCREENS</a>
+                <a href='/' className='logo-main'><img src={logo2}/></a>
                   <ul className="menu-list-desktop" >
-                     <Link to="/home"><li>Home</li></Link>
                        <Link to="/aboutUs"><li>About</li></Link>
-                       <Link to="/blinds"><li onClick={() =>setMenuOpen(!menuOpen)}>Blinds</li></Link>
+                       {/* <Link to="/blinds"><li onClick={() =>setMenuOpen(!menuOpen)}>Blinds</li></Link> */}
                       <Link to="/blinds"><li>Blinds
                         <ul class="submenu-1">
                           <li><a href="">Zebra Blinds</a></li>
                         </ul>
                         </li></Link>
-                       <Link to="/screens"><li>Screens</li></Link>
+                       <Link to="/screens"><li>Screens
+                       <ul class="submenu-1">
+                          <li><a href="">Screens 1</a></li>
+                          <li><a href="">Screens 2</a>
+                            <ul className='submenu-2'>
+                              <li><a href="">Screens 2-A</a></li>
+                              <li><a href="">Screens 2-B</a></li>
+                              <li><a href="">Screens 2-C</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="">Screens 3</a></li>
+                          <li><a href="">Screens 4</a></li>
+                        </ul>
+                        </li></Link>
                        <Link to="/curtains"><li>Curtains</li></Link>             
                        <Link to="/contact"><li>Contact</li></Link> 
                                  
