@@ -1,0 +1,12 @@
+.doors {
+    // display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    height: 1200px; 
+    .waveBlueLine{
+        position: absolute;
+        bottom: 0;
+        z-index: 2;
+    }  
+}
