@@ -1,5 +1,5 @@
 import "../styles/styles.scss"
-import { useState } from "react";
+import { useState, link } from "react";
 
 function Hamburger(){
 
@@ -19,6 +19,7 @@ function Hamburger(){
           {isActive ?
             <div className="menu-dropdown">
               <ul className="menu-list">
+                {/* <link to="/home"><li>Home</li></link> */}
                 <li>Home</li>
                 <li>About</li>
                 <li>Blinds</li>

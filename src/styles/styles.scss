@@ -3,7 +3,7 @@
 @use './base/typography';
 
 @use './components/header';
-@use './components/nav';
+// @use './components/nav';
 @use './components/hamburger';
 @use './components/footer';
 @use './components/main';
@@ -27,6 +27,13 @@
 @use './components/dropDownBlinds/solarBlinds';
 @use './components/dropDownBlinds/rollerBlinds';
 @use './components/dropDownBlinds/viennaBlinds';
+
+@use './components/dropdownsScreens/windows/handlePushOut';
+@use './components/dropdownsScreens/windows/lipBarScreen';
+@use './components/dropdownsScreens/windows/slidingWindow';
+@use './components/dropdownsScreens/windows/tiltTurnWindow';
+
+
 
 // External Imports
 @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';

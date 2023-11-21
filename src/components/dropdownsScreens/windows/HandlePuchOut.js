@@ -5,19 +5,19 @@ import Header from '../../../components/Header';
 import Sliders from '../../../components/Sliders';
 import react from 'react'
 
-function LipBarScreen() {
+function HandlePushOut() {
 
     return (
-      <div className="lipBarScreen">
+      <div className="handlePuchOut">
         <div>
         <Header />
         <Sliders />
         </div>
-        <h1>This is LipBarScreen</h1>
+        <h1>This is HandlePushOut</h1>
         <div className='image'>
         <img src={waveblue} alt="" className="waveBlueLine"/>
         </div>       
       </div>
     )
 }
-export default LipBarScreen
+export default HandlePushOut

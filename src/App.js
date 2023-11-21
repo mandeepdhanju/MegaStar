@@ -28,6 +28,12 @@ import HoneyCombBlinds from './components/dropdownsBlinds/HoneyCombBlinds';
 import ViennaBlinds from './components/dropdownsBlinds/ViennaBlinds';
 import SolarBlinds from './components/dropdownsBlinds/SolarBlinds';
 
+import HandlePushOut from './components/dropdownsScreens/windows/HandlePuchOut';
+import LipBarScreen from './components/dropdownsScreens/windows/LipBarScreen';
+import SlidingWindow from './components/dropdownsScreens/windows/SlidingWindow';
+import TiltTurnWindow from './components/dropdownsScreens/windows/TiltTurnWindow';
+
+
 function App() {
   const [menuOpen, setMenuOpen] = useState(false)
   return (
@@ -60,8 +66,13 @@ function App() {
         <Route path="ViennaBlinds" element={<ViennaBlinds />} />
 
         <Route path="screens" element={<Screens />} />
-        <Route path="doors" element={<Doors />} />
-        {/* <Route path="curtains" element={<Windows />} /> */}
+        {/* <Route path="doors" element={<Doors />} /> */}
+        {/* <Route path="windows" element={<Windows />} /> */}
+
+        <Route path="handlePushOut" element={<HandlePushOut />} />
+        <Route path="lipBarScreen" element={<LipBarScreen/>} />
+        <Route path="slidingWindow" element={<SlidingWindow />} />
+        <Route path="tiltTurnWindow" element={<TiltTurnWindow />} />
 
         
         <Route path="curtains" element={<Curtains />} />    

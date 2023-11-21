@@ -18,18 +18,21 @@
     position: relative;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 100px;
+    // margin-bottom: 100px;
+   padding-bottom: 250px;
+
     height: auto; 
     
     .waveBlueLine{
+        
         position: absolute;
         bottom: 0;
         z-index: 2;
     }  
 
     .title{
-        color: #bf5f63;
-        font-size: 60px;
+        color:#154a66;
+        font-size: 50px;
         text-align: center;
         margin-top: 70px;
     }
@@ -122,6 +125,7 @@
           height: 100%;
           z-index: 1;
           object-fit: cover;
+    
   
           @include mobile {
             width: 100%;
