@@ -276,6 +276,11 @@ header {
         }
 
     }
+    .menu-list-desktop li:hover{
+        background: #40439b;
+        color: white;
+        border-radius: 5px;
+    }
 } 
 
 @media (min-width: 1024px) {
@@ -291,6 +296,12 @@ header {
         padding: 10px 20px;
         
     }
+    .menu-list-desktop li:hover{
+        background: #40439b;
+        color: white;
+        border-radius: 5px;
+    }
+
     .menu-list-desktop li:hover{
         background: #40439b;
         color: white;
