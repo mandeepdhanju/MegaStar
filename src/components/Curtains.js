@@ -3,7 +3,7 @@ import waveblue from '../images//wave-blue-light.png'
 import Header from '../components/Header';
 import Sliders from '../components/Sliders';
 
-import blind1 from "../images/curtains1.jpg";
+import curtains1 from "../images/curtains1.jpg";
 import blind2 from "../images/Blinds-Verosol-Square-2.jpg";
 import blind3 from "../images/Blinds-Verosol-Square-3.jpg";
 import blind4 from "../images/Blinds-Verosol-Square-4.jpg";
@@ -48,7 +48,7 @@ function Curtains() {
               <div className="column item">
                 <div className="home-product">
                   <div className="img-holder">
-                    <img className="product-img" src={blind1} />
+                    <img className="product-img" src={curtains1} />
                   </div>
                   {/* <div className="detail">
                                     <h3 className="product-title">BLINDS</h3>
