@@ -91,14 +91,17 @@ header {
     max-width: 500px;
     top: 100%;
     background: white;
+    // background: red;
     border-radius: 0px 5px 5px 5px;
     li a{
         text-transform: none;
         border-radius: 0px 5px 5px 5px;
+        color: red;
     }
     
     li:hover a{
         color: white;
+        // color: red;
     }
     .submenu-2{
         display: none;
@@ -116,6 +119,7 @@ header {
         }
         li:hover a{
             color: white;
+            // color: red;
         }
     }
     li:hover .submenu-2{
@@ -124,18 +128,18 @@ header {
     
 }
 
-.blindsList{
-    color: Green;
-    cursor: pointer;
-    padding: 2;
-    box-shadow: auto;
-    background-color: lightgray;
-    ul{
-        &:hover{
-            background-color: #009ddc;           
-        }       
-    }  
-}
+// .blindsList{
+//     color: Green;
+//     cursor: pointer;
+//     padding: 2;
+//     box-shadow: auto;
+//     background-color: lightgray;
+//     ul{
+//         &:hover{
+//             background-color: #009ddc;           
+//         }       
+//     }  
+// }
 
 .menu-list-desktop a{
     text-decoration: none;
@@ -268,6 +272,7 @@ header {
             padding: 10px;
             color: #2e3192;
             cursor: pointer;
+        
         }
 
     }
@@ -289,6 +294,7 @@ header {
     .menu-list-desktop li:hover{
         background: #40439b;
         color: white;
+        // color: #2e3192;
         border-radius: 5px;
     }
 }

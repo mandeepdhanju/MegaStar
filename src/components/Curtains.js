@@ -1,17 +1,18 @@
-import '../styles/styles.scss';
-import waveblue from '../images//wave-blue-light.png'
-import Header from '../components/Header';
-import Sliders from '../components/Sliders';
+import "../styles/styles.scss";
+import waveblue from "../images//wave-blue-light.png";
+import Header from "../components/Header";
+import Sliders from "../components/Sliders";
 
 import curtains1 from "../images/curtains1.jpg";
-import blind2 from "../images/Blinds-Verosol-Square-2.jpg";
-import blind3 from "../images/Blinds-Verosol-Square-3.jpg";
-import blind4 from "../images/Blinds-Verosol-Square-4.jpg";
-import blind5 from "../images/Blinds-Verosol-Square-5.jpg";
-import blind6 from "../images/Blinds-Verosol-Square-6.jpg";
-import blind9 from "../images/Blinds-Verosol-Square-4-1.jpg";
-function Curtains() {
+import curtains2 from "../images/curtains2.jpg";
+import curtains3 from "../images/curtains3.jpg";
+import curtains4 from "../images/curtains4.jpg";
+import curtains5 from "../images/curtains5.jpg";
+import curtains6 from "../images/curtains6.jpg";
+import curtains7 from "../images/curtains7.jpg";
+import curtains8 from "../images/curtains8.jpg";
 
+function Curtains() {
   return (
     <div className="curtains">
       <div>
@@ -23,25 +24,31 @@ function Curtains() {
         <div className="row">
           <div className="column">
             <div className="text">
-            <h2 className="title">Roller Blinds</h2>
+              <h2 className="title">Customised Curtains</h2>
               <p>
-                Not all windows are created equal. Often the space for a curtain
-                is not available and the functionality of our world-leading
-                custom roller blinds is required. Integrated motorised blinds
-                are an architect’s delight. With a sleek minimalist look when
-                closed, blinds can be almost entirely hidden when open. If your
-                requirements include easy-clean, small footprint and the ability
-                to reveal a window from the bottom or top, we provide solutions
-                from leading brands that you will love. <br></br>
-                At Indeko, we offer an enormous range of finishes and options to
-                best match your window treatment with your décor. <br></br>
-                Design options include blockout roller blinds, screen roller
-                blinds, non-transclucent and transclucent roller blinds. Roller
-                blinds can be configured as a twin roller blind, screen at the
-                back, blockout at the front as well as the option to multi-link
-                your blinds.<br></br>
-                Roller blinds are the perfect solution to increase privacy or to
-                maintain the view, while controlling heat and glare.
+                When it comes to fabric selection for your home, there are so
+                many factors to consider including; energy-efficiency levels,
+                natural fibre options and pattern choice to name a few. These
+                elements have a big impact on how they make your living space
+                look and feel. Do they provide the feeling or comfort and warmth
+                you’re looking for? Or, are they regulating light so you can
+                sleep better? Whatever you choose should match your style and
+                purpose. <br></br>
+                The perfect time to begin planning for custom curtains is before
+                your builder or architect finalise the plans for your home. When
+                redecorating, renovating or extending your home, our experienced
+                design consultants will provide a thorough review of your plans
+                to help create a strategy for your window treatments. <br></br>
+                Custom curtains add personality and sophistication to your home
+                but can also provide significant functional benefits. From
+                temperature and natural light control through to noise
+                protection and security, custom curtain fabrics are recommended
+                based on the way you live your life. For world-leading
+                motorisation and automation solutions, Indeko Studio provides
+                solutions from Somfy, Acmeda and Oslo. A large range of
+                motorised displays can be tested in our showroom.<br></br>
+                One of the advantages of selecting Indeko Studio is our
+                connection to fabric houses worldwide.
               </p>
             </div>
             <div className="row">
@@ -59,7 +66,7 @@ function Curtains() {
               <div className="column item">
                 <div className="home-product">
                   <div className="img-holder">
-                    <img className="product-img" src={blind2} />
+                    <img className="product-img" src={curtains2} />
                   </div>
                   {/* <div className="detail">
                                     <h3 className="product-title">PATIO DOORS</h3>
@@ -70,7 +77,7 @@ function Curtains() {
               <div className="column item">
                 <div className="home-product">
                   <div className="img-holder">
-                    <img className="product-img" src={blind3} />
+                    <img className="product-img" src={curtains3} />
                   </div>
                   {/* <div className="detail">
                                     <h3 className="product-title">SCREENS</h3>
@@ -81,7 +88,7 @@ function Curtains() {
               <div className="column item">
                 <div className="home-product">
                   <div className="img-holder">
-                    <img className="product-img" src={blind4} />
+                    <img className="product-img" src={curtains4} />
                   </div>
                   {/* <div className="detail">
                                     <h3 className="product-title">BLINDS</h3>
@@ -92,7 +99,7 @@ function Curtains() {
               <div className="column item">
                 <div className="home-product">
                   <div className="img-holder">
-                    <img className="product-img" src={blind5} />
+                    <img className="product-img" src={curtains5} />
                   </div>
                   {/* <div className="detail">
                                     <h3 className="product-title">PATIO DOORS</h3>
@@ -103,7 +110,7 @@ function Curtains() {
               <div className="column item">
                 <div className="home-product">
                   <div className="img-holder">
-                    <img className="product-img" src={blind6} />
+                    <img className="product-img" src={curtains6} />
                   </div>
                   {/* <div className="detail">
                                     <h3 className="product-title">SCREENS</h3>
@@ -114,16 +121,24 @@ function Curtains() {
             <div className="column item">
               <div className="home-product">
                 <div className="img-holder">
-                  <img className="product-img" src={blind9} />
+                  <img className="product-img" src={curtains7} />
                 </div>
                 {/* <div className="detail">
                                     <h3 className="product-title">SCREENS</h3>
                                 </div> */}
               </div>
             </div>
-            
+            <div className="column item">
+              <div className="home-product">
+                <div className="img-holder">
+                  <img className="product-img" src={curtains8} />
+                </div>
+                {/* <div className="detail">
+                                    <h3 className="product-title">SCREENS</h3>
+                                </div> */}
+              </div>
+            </div>
           </div>
-          
         </div>
       </div>
       <div className="image">
@@ -133,4 +148,4 @@ function Curtains() {
   );
 }
 
-export default Curtains
+export default Curtains;

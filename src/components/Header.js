@@ -7,7 +7,7 @@ import logo1 from '../images/megastar-logo-white.png'
 import "../styles/styles.scss"
 import Hamburger from './Hamburger';
 import { useRef } from 'react';
-// import React, { Component } from "react";
+import React, { Component } from "react";
 
 
 function Header({menuOpen, setMenuOpen}) {
@@ -51,6 +51,8 @@ function Header({menuOpen, setMenuOpen}) {
                       <Link to="/blinds">
                         <li>Blinds
                         <ul class="submenu-1">
+                          <li>
+                        <Link to="/zebraBlinds"><li>Zebra Blinds</li></Link></li>
                           <li><a href="zebraBlinds">Zebra Blinds</a></li>
                           <li><a href="rollerBlinds">Roller Blinds</a></li>
                           <li><a href="fauxWoodBlinds">Fauxwood Blinds</a></li>

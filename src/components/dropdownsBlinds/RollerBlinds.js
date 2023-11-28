@@ -10,7 +10,7 @@ import blind3 from "../../images/Blinds-Verosol-Square-3.jpg";
 import blind4 from "../../images/Blinds-Verosol-Square-4.jpg";
 import blind5 from "../../images/Blinds-Verosol-Square-5.jpg";
 import blind6 from "../../images/Blinds-Verosol-Square-6.jpg";
-// import blind7 from "../../images/Blinds-Verosol-Square-7.jpg";
+import blind7 from "../../images/Blinds-Verosol-Square-7.jpg";
 // import blind8 from "../../images/Blinds-Verosol-Square-8.jpg";
 import blind9 from "../../images/Blinds-Verosol-Square-4-1.jpg";
 
@@ -118,6 +118,16 @@ function RollerBlinds() {
               <div className="home-product">
                 <div className="img-holder">
                   <img className="product-img" src={blind9} />
+                </div>
+                {/* <div className="detail">
+                                    <h3 className="product-title">SCREENS</h3>
+                                </div> */}
+              </div>
+            </div>
+            <div className="column item">
+              <div className="home-product">
+                <div className="img-holder">
+                  <img className="product-img" src={blind7} />
                 </div>
                 {/* <div className="detail">
                                     <h3 className="product-title">SCREENS</h3>
