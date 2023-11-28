@@ -7,6 +7,7 @@ import logo1 from '../images/megastar-logo-white.png'
 import "../styles/styles.scss"
 import Hamburger from './Hamburger';
 import { useRef } from 'react';
+// import React, { Component } from "react";
 
 
 function Header({menuOpen, setMenuOpen}) {
@@ -59,7 +60,7 @@ function Header({menuOpen, setMenuOpen}) {
                         </ul>
                         </li>
                         </Link>
-                       <Link to="/screens">
+                       <Link to="">
                         <li>Screens
                        <ul class="submenu-1">
                           <li><a href="">Windows</a>

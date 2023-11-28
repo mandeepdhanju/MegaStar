@@ -26,7 +26,7 @@ function RollerBlinds() {
         <div className="row">
           <div className="column">
             <div className="text">
-              <h1>Roller Blind</h1>
+            <h2 className="title">Roller Blinds</h2>
               <p>
                 Not all windows are created equal. Often the space for a curtain
                 is not available and the functionality of our world-leading
@@ -136,10 +136,3 @@ function RollerBlinds() {
   );
 }
 export default RollerBlinds;
-{
-  /* <div>
-        <Header />
-        <Sliders />
-      </div>
-      <h1>Roller Blinds</h1> */
-}
