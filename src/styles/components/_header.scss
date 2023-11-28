@@ -93,10 +93,14 @@ header {
     background: white;
     // background: red;
     border-radius: 0px 5px 5px 5px;
+    li{
+        padding: 10px 20px;
+    }
     li a{
         text-transform: none;
         border-radius: 0px 5px 5px 5px;
-        color: red;
+        color: #40439b;
+        
     }
     
     li:hover a{
