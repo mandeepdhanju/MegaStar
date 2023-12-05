@@ -51,14 +51,12 @@ function Header({menuOpen, setMenuOpen}) {
                       <Link to="/blinds">
                         <li>Blinds
                         <ul class="submenu-1">
-                          <li>
-                        <Link to="/zebraBlinds"><li>Zebra Blinds</li></Link></li>
-                          <li><a href="zebraBlinds">Zebra Blinds</a></li>
-                          <li><a href="rollerBlinds">Roller Blinds</a></li>
-                          <li><a href="fauxWoodBlinds">Fauxwood Blinds</a></li>
-                          <li><a href="honeyCombBlinds">Honey Comb Blinds</a></li>
-                          <li><a href="viennaBlinds">Vienna Blinds</a></li>
-                          <li><a href="solarBlinds">Solar Blinds</a></li>
+                          <li><Link to="/zebraBlinds">Zebra Blinds</Link></li>
+                          <li><Link to="/rollerBlinds">Roller Blinds</Link></li>
+                          <li><Link to="/fauxWoodBlinds">Fauxwood Blinds</Link></li>
+                          <li><Link to="/honeyCombBlinds">Honey Comb Blinds</Link></li>
+                          <li><Link to="/viennaBlinds">Vienna Blinds</Link></li>
+                          <li><Link to="/solarBlinds">Solar Blinds</Link></li>
                         </ul>
                         </li>
                         </Link>
