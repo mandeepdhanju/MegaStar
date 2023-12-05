@@ -1,17 +1,6 @@
 @use '../utilities/variables' as *;
 @use '../utilities/mixins' as *;
 
-// .blinds {
-//     flex-direction: column;
-//     justify-content: center;
-//     position: relative;
-//     height: 1200px; 
-//     .waveBlueLine{
-//         position: absolute;
-//         bottom: 0;
-//         z-index: 2;
-//     }  
-// }
 
 .blinds {
     justify-content: center;
@@ -19,9 +8,9 @@
     flex-direction: column;
     align-items: center;
     // margin-bottom: 100px;
-   padding-bottom: 250px;
-
+    padding-bottom: 250px;
     height: auto; 
+
     
     .waveBlueLine{
         
@@ -37,13 +26,14 @@
         margin-top: 70px;
     }
   
-    h1 {
-      font-size: 50px;
+    // h1 {
+    //   font-size: 50px;
   
-      @include mobile {
-        font-size: 20px;
-      }
-    }
+    //   @include mobile {
+    //     font-size: 20px;
+    //   }
+    // }
+    
     // ul {
     //   margin: 10px;
     //   padding: 0;

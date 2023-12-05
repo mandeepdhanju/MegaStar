@@ -1,16 +1,14 @@
-@use '../../../utilities/mixins';
-@use '../../../utilities/variables';
+@use '../../../utilities/variables' as *;
+@use '../../../utilities/mixins' as *;
 
-
-._handlePushOut {
+.patioSliderDoor {
     flex-direction: column;
     justify-content: center;
     position: relative;
-    height: auto; 
+    height: 1200px; 
     .waveBlueLine{
         position: absolute;
         bottom: 0;
         z-index: 2;
     }  
 }
-

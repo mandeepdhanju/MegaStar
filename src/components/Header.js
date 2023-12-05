@@ -27,7 +27,7 @@ function Header({menuOpen, setMenuOpen}) {
                 <div className='header-contact-links'>
                   <ul className='header-contact-list'>
                     <div>
-                      <li><Link className='cosultation-link' to="/bookConsultation">Book a Consultation</Link></li>
+                      <li><Link className='cosultation-link' to="/bookConsultation">Book A Consultation</Link></li>
                       {/* <li>Product Detals</li> */}
                     </div>
                     <div className='phoneNumber'>
@@ -51,14 +51,12 @@ function Header({menuOpen, setMenuOpen}) {
                       <Link to="/blinds">
                         <li>Blinds
                         <ul class="submenu-1">
-                          <li>
-                        <Link to="/zebraBlinds"><li>Zebra Blinds</li></Link></li>
-                          <li><a href="zebraBlinds">Zebra Blinds</a></li>
-                          <li><a href="rollerBlinds">Roller Blinds</a></li>
-                          <li><a href="fauxWoodBlinds">Fauxwood Blinds</a></li>
-                          <li><a href="honeyCombBlinds">Honey Comb Blinds</a></li>
-                          <li><a href="viennaBlinds">Vienna Blinds</a></li>
-                          <li><a href="solarBlinds">Solar Blinds</a></li>
+                          <li><Link to="/zebraBlinds">Zebra Blinds</Link></li>
+                          <li><Link to="/rollerBlinds">Roller Blinds</Link></li>
+                          <li><Link to="/fauxWoodBlinds">Fauxwood Blinds</Link></li>
+                          <li><Link to="/honeyCombBlinds">Honey Comb Blinds</Link></li>
+                          <li><Link to="/viennaBlinds">Vienna Blinds</Link></li>
+                          <li><Link to="/solarBlinds">Solar Blinds</Link></li>
                         </ul>
                         </li>
                         </Link>
@@ -67,22 +65,20 @@ function Header({menuOpen, setMenuOpen}) {
                        <ul class="submenu-1">
                           <li><a href="">Windows</a>
                             <ul className='submenu-2'>
-                              <li><a href="">Sliding Window</a></li>
-                              <li><a href="">Handle Push Out window</a></li>
-                              <li><a href="">Lip Bar Screen</a></li>
-                              <li><a href="">Tilt N Window</a></li>
+                              <li><Link to="/slidingWindow">Sliding Window</Link></li>
+                              <li><Link to="/handlePushOut">Handle Push Out window</Link></li>
+                              <li><Link to="/lipBarScreen">Lip Bar Screen</Link></li>
+                              <li><Link to="/tiltTurnWindow">Tilt N Window</Link></li>
                             </ul>
                           </li>
                           <li><a href="">Doors</a>
                             <ul className='submenu-2'>
-                              <li><a href="">Patio Slider Screen</a></li>
-                              <li><a href="">Retractable Single Entry Screen</a></li>
-                              <li><a href="">Retractable French Door Screen</a></li>
-                              <li><a href="">Strom Door Screen</a></li>
+                              <li><Link to="/patioSliderDoor">Patio Slider Screen</Link></li>
+                              <li> <Link to="/retractableSingleEntryDoor">Retractable Single Entry Screen</Link></li>
+                              <li> <Link to="/retractableFrenchDoor">Retractable French Door Screen</Link></li>
+                              <li> <Link to="/stromDoor">Strom Door Screen</Link></li>
                             </ul>
                           </li>
-                          {/* <li><a href="">Screens 3</a></li>
-                          <li><a href="">Screens 4</a></li> */}
                         </ul>
                         </li></Link>
                        <Link to="/curtains"><li>Curtains</li></Link>             

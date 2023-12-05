@@ -17,9 +17,9 @@
 @use './components/screens';
 @use './components/doors';
 @use './components/contact';
-@use './components/bookConsultation';
 @use './components/curtains';
 @use './components/windows';
+@use './components/bookConsultation';
 
 @use './components/dropDownBlinds/zebraBlinds';
 @use './components/dropDownBlinds/honecombBlinds';
@@ -32,6 +32,11 @@
 @use './components/dropdownsScreens/windows/lipBarScreen';
 @use './components/dropdownsScreens/windows/slidingWindow';
 @use './components/dropdownsScreens/windows/tiltTurnWindow';
+
+@use './components/dropdownsScreens/doors/patioSliderDoor';
+@use './components/dropdownsScreens/doors/retractableFrenchDoor';
+@use './components/dropdownsScreens/doors/retractableSingleEntryDoor';
+@use './components/dropdownsScreens/doors/stromDoor';
 
 
 

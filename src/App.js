@@ -33,6 +33,10 @@ import LipBarScreen from './components/dropdownsScreens/windows/LipBarScreen';
 import SlidingWindow from './components/dropdownsScreens/windows/SlidingWindow';
 import TiltTurnWindow from './components/dropdownsScreens/windows/TiltTurnWindow';
 
+import PatioSliderDoor from './components/dropdownsScreens/Doors/PatioSliderDoor';
+import RetractableFrenchDoor from './components/dropdownsScreens/Doors/RetractableFrenchDoor';
+import RetractableSingleEntryDoor from './components/dropdownsScreens/Doors/RetractableSingleEntryDoor';
+import StromDoor from './components/dropdownsScreens/Doors/StromDoor';
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -75,7 +79,13 @@ function App() {
         <Route path="tiltTurnWindow" element={<TiltTurnWindow />} />
 
         
-        <Route path="curtains" element={<Curtains />} />    
+        <Route path="curtains" element={<Curtains />} />   
+                     
+        <Route path="patioSliderDoor" element={<PatioSliderDoor/>} />
+        <Route path="retractableFrenchDoor" element={<RetractableFrenchDoor/>} />
+        <Route path="retractableSingleEntryDoor" element={<RetractableSingleEntryDoor/>} />
+        <Route path="stromDoor" element={<StromDoor/>} />
+         
         <Route path="contact" element={<Contact />} />
         <Route path="bookConsultation" element={<BookConsultation />} />
         </Routes>

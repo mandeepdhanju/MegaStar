@@ -19,7 +19,6 @@ function Curtains() {
         <Header />
         <Sliders />
       </div>
-      {/* <h1>Roller Blinds</h1>  */}
       <div className="container">
         <div className="row">
           <div className="column">
@@ -52,14 +51,12 @@ function Curtains() {
               </p>
             </div>
             <div className="row">
+
               <div className="column item">
                 <div className="home-product">
                   <div className="img-holder">
                     <img className="product-img" src={curtains1} />
                   </div>
-                  {/* <div className="detail">
-                                    <h3 className="product-title">BLINDS</h3>
-                                </div> */}
                 </div>
               </div>
 
@@ -68,9 +65,7 @@ function Curtains() {
                   <div className="img-holder">
                     <img className="product-img" src={curtains2} />
                   </div>
-                  {/* <div className="detail">
-                                    <h3 className="product-title">PATIO DOORS</h3>
-                                </div> */}
+
                 </div>
               </div>
 
@@ -79,9 +74,6 @@ function Curtains() {
                   <div className="img-holder">
                     <img className="product-img" src={curtains3} />
                   </div>
-                  {/* <div className="detail">
-                                    <h3 className="product-title">SCREENS</h3>
-                                </div> */}
                 </div>
               </div>
 
@@ -90,9 +82,6 @@ function Curtains() {
                   <div className="img-holder">
                     <img className="product-img" src={curtains4} />
                   </div>
-                  {/* <div className="detail">
-                                    <h3 className="product-title">BLINDS</h3>
-                                </div> */}
                 </div>
               </div>
 
@@ -101,9 +90,6 @@ function Curtains() {
                   <div className="img-holder">
                     <img className="product-img" src={curtains5} />
                   </div>
-                  {/* <div className="detail">
-                                    <h3 className="product-title">PATIO DOORS</h3>
-                                </div> */}
                 </div>
               </div>
 
@@ -112,32 +98,26 @@ function Curtains() {
                   <div className="img-holder">
                     <img className="product-img" src={curtains6} />
                   </div>
-                  {/* <div className="detail">
-                                    <h3 className="product-title">SCREENS</h3>
-                                </div> */}
                 </div>
               </div>
+
             </div>
             <div className="column item">
               <div className="home-product">
                 <div className="img-holder">
                   <img className="product-img" src={curtains7} />
                 </div>
-                {/* <div className="detail">
-                                    <h3 className="product-title">SCREENS</h3>
-                                </div> */}
               </div>
             </div>
+
             <div className="column item">
               <div className="home-product">
                 <div className="img-holder">
                   <img className="product-img" src={curtains8} />
                 </div>
-                {/* <div className="detail">
-                                    <h3 className="product-title">SCREENS</h3>
-                                </div> */}
               </div>
             </div>
+            
           </div>
         </div>
       </div>

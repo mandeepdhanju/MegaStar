@@ -1,23 +1,21 @@
-import '../../../styles/styles.scss';
-
-import waveblue from '../../../images/wave-blue-light.png'
-import Header from '../../../components/Header';
-import Sliders from '../../../components/Sliders';
-import react from 'react'
-
+import "../../../styles/styles.scss";
+import waveblue from "../../../images/wave-blue-light.png";
+import Header from "../../../components/Header";
+import Sliders from "../../../components/Sliders";
+import react from "react";
+import Zebra from "../../../images/Blinds/ZebraShade.jpg";
 function HandlePushOut() {
-
-    return (
-      <div className="handlePuchOut">
-        <div>
-        <Header />
-        <Sliders />
-        </div>
-        <h1>This is HandlePushOut</h1>
-        <div className='image'>
-        <img src={waveblue} alt="" className="waveBlueLine"/>
-        </div>       
+  return (
+    <div className="lipBarScreen">
+      <div>
+      <Header />
+      <Sliders />
       </div>
-    )
+      <h1>This is Handle Push Out page</h1>
+      <div className='image'>
+      <img src={waveblue} alt="" className="waveBlueLine"/>
+      </div>       
+    </div>
+  )
 }
-export default HandlePushOut
+export default HandlePushOut;

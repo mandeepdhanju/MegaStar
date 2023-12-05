@@ -17,11 +17,15 @@ function Contact() {
     <div className="contactMe" id="contactMe">
         <Header />
         <Sliders />
-    <div className="left">
-      {/* <img src={shake} alt="hand shake Image" /> */}
-    </div>
+    {/* <div className="left">
+      <img src={shake} alt="hand shake Image" />
+    </div> */}
     <div className="right">
+    <a href="bookaConsultation"><button className="btn-primary">
+              Book A Consultation
+            </button></a>
       <div className="get-in-touch-container">
+
         <h2>Get in touch</h2>
       </div>
       <div className="get-in-touch-container">

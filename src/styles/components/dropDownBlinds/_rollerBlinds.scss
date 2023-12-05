@@ -1,22 +1,6 @@
 @use '../../utilities/variables' as *;
 @use '../../utilities/mixins' as *;
 
-// .rollerBlinds {
-//     flex-direction: column;
-//     justify-content: center;
-//     position: relative;
-//     height: 1200px; 
-//     .waveBlueLine{
-//         position: absolute;
-//         bottom: 0;
-//         z-index: 2;
-//     } 
-// }
-
-
-// .product-title{
-//     line-height: 1.2em;
-// }
 
 .rollerBlinds {
     // text-align: center;
@@ -69,7 +53,7 @@
     margin: 0 auto;
     padding: 0 32px 14px;
     p{
-        // font-size: large;  
+        font-size:medium;  
 
     }
         .title{
@@ -124,6 +108,9 @@ h3 {
             font-size: 24px;
             color: #009ddc;
         }
+        p{
+            font-size: 17px;
+        }
     }
 
 
@@ -164,6 +151,9 @@ h3 {
         padding: 0 0 25px;
         margin: 0 auto;
     }
+    // p{
+    //     color: green;
+    // }
 
 }
 

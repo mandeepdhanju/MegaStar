@@ -5,8 +5,7 @@
 .contactMe{
     flex-direction: column;
     justify-content: center;
-    position: relative;
-    // height: 1200px; 
+    position: relative; 
     .waveBlueLine{
         position: absolute;
         bottom: 0;
@@ -16,19 +15,20 @@
     @include mobile{
         flex-direction: column;
     }
+    
 
-    // .left{
-    //     flex: 1;
-    //     overflow: hidden;
+    .left{
+        flex: 1;
+        overflow: hidden;
 
-    //     img{
-    //         height: 100%;
-    //         @include mobile{
-    //             height: 70%;
-    //             width: 100%;
-    //         }
-    //     }
-    // }
+        img{
+            height: 100%;
+            @include mobile{
+                height: 70%;
+                width: 100%;
+            }
+        }
+    }
 
     .right{
         border: red;
@@ -39,14 +39,17 @@
         justify-content: center;
         padding-left: 30px;
         padding-right: 30px;
-        height: 800px;
+        padding-bottom: 100px;
+        padding-top: 80px;
+        // height: 800px;
             h2{
                 font-size: 40px;
                 font-weight: 700;
                 display: inline-block;
+                padding-top: 35px;
             }
         p{
-            padding-top: 20px;
+            padding-top: 10px;
             font-size: 20px;   
             text-align: center;
             // @include mobile{
