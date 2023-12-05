@@ -64,9 +64,6 @@ function RollerBlinds() {
                   <div className="img-holder">
                     <img className="product-img" src={blind2} />
                   </div>
-                  {/* <div className="detail">
-                                    <h3 className="product-title">PATIO DOORS</h3>
-                                </div> */}
                 </div>
               </div>
 
@@ -75,9 +72,7 @@ function RollerBlinds() {
                   <div className="img-holder">
                     <img className="product-img" src={blind3} />
                   </div>
-                  {/* <div className="detail">
-                                    <h3 className="product-title">SCREENS</h3>
-                                </div> */}
+
                 </div>
               </div>
 
@@ -86,9 +81,6 @@ function RollerBlinds() {
                   <div className="img-holder">
                     <img className="product-img" src={blind4} />
                   </div>
-                  {/* <div className="detail">
-                                    <h3 className="product-title">BLINDS</h3>
-                                </div> */}
                 </div>
               </div>
 
@@ -97,9 +89,6 @@ function RollerBlinds() {
                   <div className="img-holder">
                     <img className="product-img" src={blind5} />
                   </div>
-                  {/* <div className="detail">
-                                    <h3 className="product-title">PATIO DOORS</h3>
-                                </div> */}
                 </div>
               </div>
 
@@ -108,12 +97,11 @@ function RollerBlinds() {
                   <div className="img-holder">
                     <img className="product-img" src={blind6} />
                   </div>
-                  {/* <div className="detail">
-                                    <h3 className="product-title">SCREENS</h3>
-                                </div> */}
                 </div>
               </div>
+
             </div>
+
             <div className="row">
             <div className="project-container">
               <div className="item zebra-blinds">
@@ -182,27 +170,22 @@ function RollerBlinds() {
               </div>
             </div>
             </div>
+
             <div className="column item">
               <div className="home-product">
                 <div className="img-holder">
                   <img className="product-img" src={blind9} />
                 </div>
-                {/* <div className="detail">
-                                    <h3 className="product-title">SCREENS</h3>
-                                </div> */}
               </div>
             </div>
+
             <div className="column item">
               <div className="home-product">
                 <div className="img-holder">
                   <img className="product-img" src={blind7} />
                 </div>
-                {/* <div className="detail">
-                                    <h3 className="product-title">SCREENS</h3>
-                                </div> */}
               </div>
             </div>
-            
             
           </div>
           

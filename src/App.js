@@ -81,7 +81,6 @@ function App() {
         
         <Route path="curtains" element={<Curtains />} />   
                      
-        <Route path="patioSliderDoor" element={<PatioSliderDoor/>} />
         <Route path="retractableFrenchDoor" element={<RetractableFrenchDoor/>} />
         <Route path="retractableSingleEntryDoor" element={<RetractableSingleEntryDoor/>} />
         <Route path="stromDoor" element={<StromDoor/>} />

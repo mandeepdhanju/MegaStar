@@ -1,7 +1,7 @@
 import "../../../styles/styles.scss";
 import waveblue from "../../../images/wave-blue-light.png";
-import Header from "../../../components/Header";
-import Sliders from "../../../components/Sliders";
+import Header from "../../Header";
+import Sliders from "../../Sliders";
 import react from "react";
 import Zebra from "../../../images/Blinds/ZebraShade.jpg";
 function HandlePushOut() {

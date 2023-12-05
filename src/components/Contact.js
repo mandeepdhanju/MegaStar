@@ -21,7 +21,7 @@ function Contact() {
       <img src={shake} alt="hand shake Image" />
     </div> */}
     <div className="right">
-    <a href="bookaConsultation"><button className="btn-primary">
+    <a href="bookConsultation"><button className="btn-primary">
               Book A Consultation
             </button></a>
       <div className="get-in-touch-container">
