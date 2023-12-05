@@ -20,7 +20,8 @@ function Hamburger(){
           {isActive ?
             <div className="menu-dropdown">
               <ul className="menu-list">
-              <Link to="/home"><li>Home</li></Link>
+                {/* <link to="/home"><li>Home</li></link> */}
+                <Link to="/home"><li>Home</li></Link>
                       <Link to="/aboutUs"><li>About</li></Link>
                       <Link to="/blinds">
                         <li>Blinds
@@ -39,20 +40,22 @@ function Hamburger(){
                        <ul class="submenu-1">
                           <li><a href="">Windows</a>
                             <ul className='submenu-2'>
-                              <li><Link to="/slidingWindow">Sliding Window</Link></li>
-                              <li><Link to="/lipBarScreen">Handle Push Out window</Link></li>
-                              <li><Link to="/handlePushOut">Lip Bar Screen</Link></li>
-                              <li><Link to="/tiltTurnWindow">Tilt N Window</Link></li>
+                              <li><a href="">Sliding Window</a></li>
+                              <li><a href="">Handle Push Out window</a></li>
+                              <li><a href="">Lip Bar Screen</a></li>
+                              <li><a href="">Tilt N Window</a></li>
                             </ul>
                           </li>
                           <li><a href="">Doors</a>
                             <ul className='submenu-2'>
-                              <li><Link to="/patioSliderDoor">Patio Slider Screen</Link></li>
-                              <li> <Link to="/retractableSingleEntryDoor">Retractable Single Entry Screen</Link></li>
-                              <li> <Link to="/retractableFrenchDoor">Retractable French Door Screen</Link></li>
-                              <li> <Link to="/stromDoor">Strom Door Screen</Link></li>
+                              <li><a href="">Patio Slider Screen</a></li>
+                              <li><a href="">Retractable Single Entry Screen</a></li>
+                              <li><a href="">Retractable French Door Screen</a></li>
+                              <li><a href="">Strom Door Screen</a></li>
                             </ul>
                           </li>
+                          {/* <li><a href="">Screens 3</a></li>
+                          <li><a href="">Screens 4</a></li> */}
                         </ul>
                         </li></Link>
                        <Link to="/curtains"><li>Curtains</li></Link>             
