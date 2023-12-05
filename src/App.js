@@ -28,7 +28,7 @@ import HoneyCombBlinds from './components/dropdownsBlinds/HoneyCombBlinds';
 import ViennaBlinds from './components/dropdownsBlinds/ViennaBlinds';
 import SolarBlinds from './components/dropdownsBlinds/SolarBlinds';
 
-import HandlePushOut from './components/dropdownsScreens/windows/HandlePuchOut';
+import HandlePushOut from './components/dropdownsScreens/windows/HandlePushOut';
 import LipBarScreen from './components/dropdownsScreens/windows/LipBarScreen';
 import SlidingWindow from './components/dropdownsScreens/windows/SlidingWindow';
 import TiltTurnWindow from './components/dropdownsScreens/windows/TiltTurnWindow';
