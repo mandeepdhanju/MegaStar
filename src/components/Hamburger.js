@@ -20,6 +20,9 @@ function Hamburger(){
           {isActive ?
             <div className="menu-dropdown">
               <ul className="menu-list">
+
+                {/* <link to="/home"><li>Home</li></link> */}
+
                 <Link to="/home"><li>Home</li></Link>
                       <Link to="/aboutUs"><li>About</li></Link>
                       <Link to="/blinds">
@@ -39,10 +42,10 @@ function Hamburger(){
                        <ul class="submenu-1">
                           <li><a href="">Windows</a>
                             <ul className='submenu-2'>
-                              <li><a href="slidingWindow">Sliding Window</a></li>
-                              <li><a href="handlePushOut">Handle Push Out window</a></li>
-                              <li><a href="lipBarScreen">Lip Bar Screen</a></li>
-                              <li><a href="tiltTurnWindow">Tilt N Window</a></li>
+                              <li><a href="">Sliding Window</a></li>
+                              <li><a href="">Handle Push Out window</a></li>
+                              <li><a href="">Lip Bar Screen</a></li>
+                              <li><a href="">Tilt N Window</a></li>
                             </ul>
                           </li>
                           <li><a href="">Doors</a>
