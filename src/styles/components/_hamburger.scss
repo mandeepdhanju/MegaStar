@@ -20,9 +20,33 @@
     li{
         font-size: 20px;
         font-family: 'Lato';
+        
+    }
+    li:hover{
+        background-color: #40439b;
+        color: white;
+    }
+    .submenu-2{
+        display: none;
+    }
+    li:hover .submenu-1{
+        display: block;
+        li:hover .submenu-2{
+            display: block;
+            position: relative;
+        background-color: transparent;
+        padding: 10px 20px;
+        left: 0;
+        li a{
+            font-size: 16px;
+            font-family: 'Lato';
+            color: white;
+            text-decoration: none;
+        }
+        }
     }
     .submenu-1{
-        display: block !important;
+        display: none;
         position: relative;
         background-color: transparent;
         padding: 10px 20px;
