@@ -11,8 +11,8 @@ import blind4 from "../../images/Blinds-Verosol-Square-4.jpg";
 import blind5 from "../../images/Blinds-Verosol-Square-5.jpg";
 import blind6 from "../../images/Blinds-Verosol-Square-6.jpg";
 import blind7 from "../../images/Blinds-Verosol-Square-7.jpg";
-// import blind8 from "../../images/Blinds-Verosol-Square-8.jpg";
-import blind9 from "../../images/Blinds-Verosol-Square-4-1.jpg";
+import blind8 from "../../images/Blinds-Verosol-Square-8.jpg";
+import blind9 from "../../images/Blinds-Verosol-Square-9.jpg";
 
 function RollerBlinds() {
   return (
@@ -53,9 +53,6 @@ function RollerBlinds() {
                   <div className="img-holder">
                     <img className="product-img" src={blind1} />
                   </div>
-                  {/* <div className="detail">
-                                    <h3 className="product-title">BLINDS</h3>
-                                </div> */}
                 </div>
               </div>
 
@@ -72,7 +69,6 @@ function RollerBlinds() {
                   <div className="img-holder">
                     <img className="product-img" src={blind3} />
                   </div>
-
                 </div>
               </div>
 
@@ -102,111 +98,38 @@ function RollerBlinds() {
 
             </div>
 
-            
-            
+            <div className="column item">
+                <div className="home-product">
+                  <div className="img-holder">
+                    <img className="product-img" src={blind7} />
+                  </div>
+                </div>
+              </div>
+
+              <div className="column item">
+                <div className="home-product">
+                  <div className="img-holder">
+                    <img className="product-img" src={blind8} />
+                  </div>
+                </div>
+              </div>
+
+              <div className="column item">
+                <div className="home-product">
+                  <div className="img-holder">
+                    <img className="product-img" src={blind9} />
+                  </div>
+                </div>
+              </div>
+
+       
+
+          
             
           </div>
           
         </div>
       </div>
-      <div className="alt-sections container">
-        <div className="row">
-        <div className="project-container">
-              <div className="item zebra-blinds">
-                <img src={blind2} alt="Zebra Shades" />
-                {/* <a href="zebraBlinds">Zebra Blinds</a> */}
-              </div>
-              <div className="info">
-                <h3>Zebra Shades Blinds</h3>
-                <p>
-                  For a stylish spin on a roller shade, try a transitional shade in
-                  Detroit. Dual panels of fabric easily roll up and down so you can
-                  scroll between translucent sheer and opaque blackout shades. When
-                  you want to let the light in, adjust the shade panels so you see
-                  “zebra” stripes. Then when you want to block out glare, just tug
-                  the shade slightly up or down, and the privacy sections will align
-                  to block the outside. If you want an unobstructed view, just slide
-                  the shade up like a traditional roller blind.
-                </p>
-                <a href="zebraBlinds"><button className="btn-primary">
-                  More Info
-                </button></a>
-              </div>
-            </div>
-        </div>
-        <div className="row">
-        <div className="project-container reverse">
-              <div className="item zebra-blinds">
-                <img src={blind2} alt="Zebra Shades" />
-                {/* <a href="zebraBlinds">Zebra Blinds</a> */}
-              </div>
-              <div className="info">
-                <h3>Zebra Shades Blinds</h3>
-                <p>
-                  For a stylish spin on a roller shade, try a transitional shade in
-                  Detroit. Dual panels of fabric easily roll up and down so you can
-                  scroll between translucent sheer and opaque blackout shades. When
-                  you want to let the light in, adjust the shade panels so you see
-                  “zebra” stripes. Then when you want to block out glare, just tug
-                  the shade slightly up or down, and the privacy sections will align
-                  to block the outside. If you want an unobstructed view, just slide
-                  the shade up like a traditional roller blind.
-                </p>
-                <a href="zebraBlinds"><button className="btn-primary">
-                  More Info
-                </button></a>
-              </div>
-            </div>
-        </div>
-        <div className="row">
-        <div className="project-container">
-              <div className="item zebra-blinds">
-                <img src={blind2} alt="Zebra Shades" />
-                {/* <a href="zebraBlinds">Zebra Blinds</a> */}
-              </div>
-              <div className="info">
-                <h3>Zebra Shades Blinds</h3>
-                <p>
-                  For a stylish spin on a roller shade, try a transitional shade in
-                  Detroit. Dual panels of fabric easily roll up and down so you can
-                  scroll between translucent sheer and opaque blackout shades. When
-                  you want to let the light in, adjust the shade panels so you see
-                  “zebra” stripes. Then when you want to block out glare, just tug
-                  the shade slightly up or down, and the privacy sections will align
-                  to block the outside. If you want an unobstructed view, just slide
-                  the shade up like a traditional roller blind.
-                </p>
-                <a href="zebraBlinds"><button className="btn-primary">
-                  More Info
-                </button></a>
-              </div>
-            </div>
-        </div>
-        <div className=" row">
-        <div className="project-container reverse">
-              <div className="item zebra-blinds">
-                <img src={blind2} alt="Zebra Shades" />
-                {/* <a href="zebraBlinds">Zebra Blinds</a> */}
-              </div>
-              <div className="info">
-                <h3>Zebra Shades Blinds</h3>
-                <p>
-                  For a stylish spin on a roller shade, try a transitional shade in
-                  Detroit. Dual panels of fabric easily roll up and down so you can
-                  scroll between translucent sheer and opaque blackout shades. When
-                  you want to let the light in, adjust the shade panels so you see
-                  “zebra” stripes. Then when you want to block out glare, just tug
-                  the shade slightly up or down, and the privacy sections will align
-                  to block the outside. If you want an unobstructed view, just slide
-                  the shade up like a traditional roller blind.
-                </p>
-                <a href="zebraBlinds"><button className="btn-primary">
-                  More Info
-                </button></a>
-              </div>
-            </div>
-        </div>
-        </div>
       <div className="image">
         <img src={waveblue} alt="" className="waveBlueLine" />
       </div>

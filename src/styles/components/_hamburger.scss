@@ -12,31 +12,39 @@
     justify-content: space-between;
     cursor: pointer;
     transition: transform 330ms ease-out;
+   
 }
 .menu-dropdown{
+    
     .menu-list{
         padding: 30px 20px;
+        // text-decoration: none;
     }
     li{
         font-size: 20px;
         font-family: 'Lato';
+
+
         
     }
     li:hover{
         background-color: #40439b;
+        // background: rgba(54, 54, 54, .75);
         color: white;
+
     }
     .submenu-2{
         display: none;
     }
     li:hover .submenu-1{
         display: block;
+    //    background: rgba(54, 54, 54, .75);
         li:hover .submenu-2{
             display: block;
             position: relative;
-        background-color: transparent;
-        padding: 10px 20px;
-        left: 0;
+            background-color: transparent;
+            padding: 10px 20px;
+            left: 0;
         li a{
             font-size: 16px;
             font-family: 'Lato';
@@ -101,19 +109,23 @@
     overflow: hidden;
     transition: all .3s ease-in-out;
     z-index: 999;
+  
 }
 
 .menu-list {
     text-align: left;
     background: rgba(54, 54, 54, .75);
+    // background-color: red;
     font-size: 18px;
     padding-left: 0;
     list-style: none;
+
     li {
         color: #fff;
         display: block;
         padding: 8px 15px;
-        cursor: pointer;
+        cursor: pointer; 
+        // text-decoration: none;
     }
 }
 

@@ -11,14 +11,15 @@ function CompanyInfo() {
             <img src={Waves} alt="" className="waves-top-divider"/>
             <div className="about-us-container">
                 <div className="about-us-column">
-                    <h2>Delievering Clean, Blinds Window, Sliding Doors and Screens SINCE 2010.</h2>
+                    <h2>Delivering Blinds, Curtains, Windows, Sliding Doors and Screens SINCE 2015.</h2>
                     <div className="text">
-                        <p>Sliding doors usually have one or more door panels that 
+                        {/* <p>Sliding doors usually have one or more door panels that 
                             open by gliding along a track or dangling from rollers 
                             fixed on the ceiling.
-                        </p>
+                        </p> */}
                     </div>
-                    <a href="aboutUs" className="btn-primary">ABOUT US</a>
+                    <Link to="/aboutUs"><li className="btn-primary">ABOUT US</li></Link>
+                    {/* <a href="/aboutUs" className="btn-primary">ABOUT US</a> */}
                 </div>
             </div>
         </div>

@@ -158,12 +158,34 @@ header {
             margin-top: 20px;
         }
     }
+    // .phoneNumber{
 
+        // cursor: pointer;
+        // text-transform: uppercase;
+        // letter-spacing: .5px;
+        // padding: 12x;
+        // font-size: 16px;
+        // border-radius: 5px;
+        // border: 1px solid white;
+        // background: rgba(0, 0, 0, 0.3);
+        // color: white;
+        // transition:.3s ease-in-out;
+        // text-decoration: none;
+        // font-weight: bold;
+       
+    // }
+    
 
     .header-contact-list {
         padding: 0 5px;
         list-style: none;
         font-family: 'Lato';
+        .phoneNumber :hover{
+            color: blue;
+            background-color: white;
+        }
+       
+       
         a{
             font-family: 'Lato';
         }
@@ -182,12 +204,26 @@ header {
         .cosultation-link{
             text-decoration: none;
             color: white;
+           
         }
 
         .phoneNumber{
            li{
             color:white;      
             cursor: pointer;
+
+        text-transform: uppercase;
+        letter-spacing: .5px;
+        padding: 12x;
+        font-size: 18px;
+        border-radius: 5px;
+        border: 1px solid white;
+        // background: rgba(0, 0, 0, 0.3);
+        background-color:#2e3192;
+        transition:.3s ease-in-out;
+        text-decoration: none;
+        font-weight: bold;
+
            }
            .contactUs{
            color: white;
@@ -294,7 +330,21 @@ header {
         color: white;
         border-radius: 5px;
     }
-
+    
+    .header-contact-list {
+        padding: 0 5px;
+        list-style: none;
+        font-family: 'Lato';
+        padding-right: 10px;
+        .phoneNumber :hover{
+            color: blue;
+            background-color: white;
+        }
+    }
+    .contactUs{
+        color: white;
+        text-decoration: none;
+        }
     // .menu-list-desktop li:hover{
     //     background: #40439b;
     //     color: white;

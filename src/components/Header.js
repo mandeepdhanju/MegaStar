@@ -27,11 +27,11 @@ function Header({menuOpen, setMenuOpen}) {
                 <div className='header-contact-links'>
                   <ul className='header-contact-list'>
                     <div>
-                      <li><Link className='cosultation-link' to="/bookConsultation">Book A Consultation</Link></li>
+                      {/* <li><Link className='cosultation-link' to="/bookConsultation">Book A Consultation</Link></li> */}
                       {/* <li>Product Detals</li> */}
                     </div>
                     <div className='phoneNumber'>
-                      <li>+1 712-642-2755</li>
+                      <li className='number'>+1 778-995-8205</li>
                       <li><Link className='contactUs' to="/contact">Contact Us</Link></li>
                     </div>
                   </ul>
@@ -65,18 +65,18 @@ function Header({menuOpen, setMenuOpen}) {
                        <ul class="submenu-1">
                           <li><a href="">Windows</a>
                             <ul className='submenu-2'>
-                              <li><Link to="/slidingWindow">Sliding Window</Link></li>
-                              <li><Link to="/handlePushOut">Handle Push Out window</Link></li>
-                              <li><Link to="/lipBarScreen">Lip Bar Screen</Link></li>
-                              <li><Link to="/tiltTurnWindow">Tilt N Window</Link></li>
+                              <li><Link to="/slidingWindow">Sliding Windows</Link></li>
+                              <li><Link to="/handlePushOut">Handle Push Out Windows</Link></li>
+                              <li><Link to="/lipBarScreen">Lip Bar Screens</Link></li>
+                              <li><Link to="/tiltTurnWindow">Tilt Turn Windows</Link></li>
                             </ul>
                           </li>
                           <li><a href="">Doors</a>
                             <ul className='submenu-2'>
-                              <li><Link to="/patioSliderDoor">Patio Slider Screen</Link></li>
-                              <li> <Link to="/retractableSingleEntryDoor">Retractable Single Entry Screen</Link></li>
-                              <li> <Link to="/retractableFrenchDoor">Retractable French Door Screen</Link></li>
-                              <li> <Link to="/stromDoor">Strom Door Screen</Link></li>
+                              <li><Link to="/patioSliderDoor">Patio Slider Screens</Link></li>
+                              <li> <Link to="/retractableSingleEntryDoor">Retractable Single Entry Screens</Link></li>
+                              <li> <Link to="/retractableFrenchDoor">Retractable French Door Screens</Link></li>
+                              <li> <Link to="/stormDoor">Storm Door Screens</Link></li>
                             </ul>
                           </li>
                         </ul>

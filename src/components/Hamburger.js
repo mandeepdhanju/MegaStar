@@ -20,15 +20,11 @@ function Hamburger(){
           {isActive ?
             <div className="menu-dropdown">
               <ul className="menu-list">
-
-                {/* <link to="/home"><li>Home</li></link> */}
-
-                <Link to="/home"><li>Home</li></Link>
-                      <Link to="/aboutUs"><li>About</li></Link>
-                      <Link to="/blinds">
-                        <li>Blinds
+                <Link to="/home" style={{textDecoration:'none'}}><li>Home</li></Link>
+                <Link to="/aboutUs" style={{textDecoration:'none'}}><li>About</li></Link>
+                <Link to="/blinds" style={{textDecoration:'none'}}><li>Blinds
                         <ul class="submenu-1">
-                          <li><Link to="/zebraBlinds">Zebra Blinds</Link></li>
+                          <li><Link to="/zebraBlinds" >Zebra Blinds</Link></li>
                           <li><Link to="/rollerBlinds">Roller Blinds</Link></li>
                           <li><Link to="/fauxWoodBlinds">Fauxwood Blinds</Link></li>
                           <li><Link to="/honeyCombBlinds">Honey Comb Blinds</Link></li>
@@ -37,31 +33,29 @@ function Hamburger(){
                         </ul>
                         </li>
                         </Link>
-                       <Link to="">
-                        <li>Screens
+
+                       <Link to="" style={{textDecoration:'none'}}><li>Screens 
                        <ul class="submenu-1">
                           <li><a href="">Windows</a>
                             <ul className='submenu-2'>
-                              <li><a href="">Sliding Window</a></li>
-                              <li><a href="">Handle Push Out window</a></li>
-                              <li><a href="">Lip Bar Screen</a></li>
-                              <li><a href="">Tilt N Window</a></li>
+                              <li><Link to="/slidingWindow">Sliding Windows</Link></li>
+                              <li><Link to="/handlePushOut">Handle Push Out Windows</Link></li>
+                              <li><Link to="/lipBarScreen">Lip Bar Screens</Link></li>
+                              <li><Link to="/tiltTurnWindow">Tilt Turn Windows</Link></li>
                             </ul>
                           </li>
-                          <li><a href="">Doors</a>
+                          <li><a href="" >Doors</a>
                             <ul className='submenu-2'>
-                              <li><a href="patioSliderDoor">Patio Slider Screen</a></li>
-                              <li><a href="retractableSingleEntryDoor">Retractable Single Entry Screen</a></li>
-                              <li><a href="retractableFrenchDoor">Retractable French Door Screen</a></li>
-                              <li><a href="stromDoor">Strom Door Screen</a></li>
+                              <li><Link to="/patioSliderDoor">Patio Slider Screens</Link></li>
+                              <li><Link to="/retractableSingleEntryDoor">Retractable Single Entry Screens</Link></li>
+                              <li><Link to="/retractableFrenchDoor">Retractable French Door Screens</Link></li>
+                              <li><Link to="/stormDoor">Storm Door Screens</Link></li>
                             </ul>
                           </li>
-                          {/* <li><a href="">Screens 3</a></li>
-                          <li><a href="">Screens 4</a></li> */}
                         </ul>
                         </li></Link>
-                       <Link to="/curtains"><li>Curtains</li></Link>             
-                       <Link to="/contact"><li>Contact</li></Link> 
+                       <Link to="/curtains" style={{textDecoration:'none'}}><li>Curtains</li></Link>             
+                       <Link to="/contact" style={{textDecoration:'none'}}><li>Contact</li></Link> 
               </ul>
             </div> : "" }
         </div></>

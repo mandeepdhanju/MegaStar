@@ -6,6 +6,7 @@
     flex-direction: column;
     justify-content: center;
     position: relative; 
+    // display: flex;
     .waveBlueLine{
         position: absolute;
         bottom: 0;
@@ -47,14 +48,13 @@
                 font-weight: 700;
                 display: inline-block;
                 padding-top: 35px;
+                color: black;
             }
         p{
             padding-top: 10px;
-            font-size: 20px;   
+            font-size: 25px;   
             text-align: center;
-            // @include mobile{
-            //     text-align: center;
-            // }
+
         }
         .footer-links{
             .footer-Ulist{
@@ -67,12 +67,17 @@
                 justify-content: center;
 
                 .telephone {
+                   
                     a {
                         color: black;
                         text-decoration: none;
-                        i{
-                            padding-right: 8px;
+                        font-family: 'Lato';
+                        font-size: 25px;
+                        img{
+                            margin-right: 10px;
+                        
                         }
+                    
                     }
                 }
             }
@@ -152,12 +157,12 @@
                 //     outline: none;
                 // }
             }
-            span{
-                margin-top: 15px;
-                margin-bottom: 30px;
-                color: green;
+            // span{
+            //     margin-top: 15px;
+            //     margin-bottom: 30px;
+            //     color: green;
                 
-            }
+            // }
 
         }
     }
@@ -167,7 +172,7 @@
         display: flex;
         align-items: center;
         white-space: nowrap;
-        
+      
         img{
             padding-top: 20px;
             cursor: pointer;
@@ -176,4 +181,24 @@
     }
 
   
+}
+@media (min-width: 1024px) {
+    // .about-us-container {
+    //     width: 960px;
+    // }
+    .left{
+        flex: 1;
+        overflow: hidden;
+    
+        img{
+            height: 60%;
+            width: 30%;
+            // @include mobile{
+            //     height: 70%;
+            //     width: 100%;
+            // }
+        }
+    }
+    
+
 }

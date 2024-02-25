@@ -19,16 +19,20 @@
     min-width: 198px;
     padding: 10px 12px;
     max-width: 200px;
-    background: none;
+    // background: white;
     font-weight: 700;
     border-radius: 0;
     margin: 0 auto;
     text-decoration: none;
     transition: .3s ease-in-out;
+    // color: black;
 }
 .more-info a:hover {
-    color: #009ddc;
-	background: #fff;
+    // color: #009ddc;
+	// background: #fff;
+    background-color:#009ddc ;
+    color: #fff;
+
 }
 .find-vulcan {
     height: 50%;
@@ -51,6 +55,7 @@
 .more-info-btn {
     color: #504f4f;
     border: 1px solid #504f4f;
+    background-color:white;
 }
 
 
@@ -77,8 +82,16 @@
 @media (min-width: 1024px) {
     .more-info{
         height: 600px;
+        .find-vulcan{
+            h2{        
+            }
+            .more-info-btn{
+                font-family: 'Lato';
+            }
+        }
     }
     .more-info h2{
-        font-size: 48px;
+        font-size: 42px;
+        font-family: 'Lato';
     }
 }
